@@ -1,0 +1,21 @@
+header {
+  width: 100vw;
+  height: 139px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 13.9px;
+
+  background-color: #F5F5F5;
+}
+
+@media (min-width: 768px) {
+  header {
+    height: 80px;
+    
+    flex-direction: row;
+    justify-content: space-between;;
+  }
+}
