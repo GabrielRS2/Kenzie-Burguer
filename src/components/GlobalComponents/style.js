@@ -4,7 +4,6 @@ export const GlobalStyle = createGlobalStyle`
     button{
         cursor: pointer;
     }
-
 `
 
 export const ThemeButton = styled.button`
@@ -26,4 +25,4 @@ export const ThemeButton = styled.button`
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
-`
+`;

@@ -1,5 +1,5 @@
 header {
-  width: 100vw;
+  max-width: 100vw;
   height: 139px;
 
   display: flex;
@@ -16,6 +16,6 @@ header {
     height: 80px;
     
     flex-direction: row;
-    justify-content: space-between;;
+    justify-content: space-between;
   }
 }

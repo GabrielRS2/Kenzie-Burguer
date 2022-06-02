@@ -1,5 +1,5 @@
 import Product from "../Product";
-import "./index.css"
+import "./index.css";
 
 function ProductsList({products, handleClick}) {
   return (

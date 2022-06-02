@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { CartContainer, CartInfo, CartItem, CartList, CartTittle, EmptyCart, Line } from "./style";
 
 function Cart({currentSale, cartTotal, setCurrentSale}) {

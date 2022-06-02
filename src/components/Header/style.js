@@ -12,7 +12,7 @@ export const Tittle = styled.h1`
     }
 
     @media (min-width: 768px) {
-        margin-left: calc((100vw - 980px - 365px - 65px - 20px)/2);
+        margin-left: 3.5vw;
     }
 `;
 
@@ -53,6 +53,6 @@ export const InputContainer = styled.div`
 
     @media (min-width:768px) {
         width: 353px;
-        margin-right: calc((100vw - 980px - 365px - 65px - 20px)/2);
+        margin-right: 2.5vw;
     }
 `;

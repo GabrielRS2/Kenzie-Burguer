@@ -12,9 +12,9 @@ export const CartContainer = styled.div`
   border-radius: 0px 0px 5px 5px;
 
   @media(min-width: 768px) {
-    margin-top 32px
+    margin-top: 32px;
   }
-`
+`;
 
 export const CartTittle = styled.div`
   width: 100%;
@@ -166,7 +166,7 @@ export const Line = styled.div`
   margin-left: 5%;
 
   background: #E0E0E0;
-`
+`;
 
 export const CartInfo = styled.div`
   max-width: 343px;
@@ -215,4 +215,4 @@ export const CartInfo = styled.div`
     line-height: 19px;
     
   }
-`
+`;

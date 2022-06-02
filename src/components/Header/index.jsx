@@ -11,7 +11,7 @@ function Header({products, setFilteredProducts}) {
     setFilteredProducts(products.filter(({name, category}) => {
       return name.toLowerCase().includes(userInput.toLowerCase()) || category.toLowerCase().includes(userInput.toLowerCase());
     }))
-  }, [userInput]); 
+  }, [userInput, products, setFilteredProducts]); 
 
   return (
     <header>

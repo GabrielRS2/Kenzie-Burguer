@@ -1,4 +1,4 @@
-import "./components/GlobalComponents/reset.css"
+import "./components/GlobalComponents/reset.css";
 import './App.css';
 import { useState , useEffect } from 'react';
 import api from './data/api';
@@ -15,7 +15,6 @@ function App() {
   const [cartTotal, setCartTotal] = useState(0);
 
   useEffect(() => {
-    // setLoading(true);
 
     api
       .get("products")
@@ -26,9 +25,6 @@ function App() {
       .catch((err) => {
         console.log(err);
       })
-      // .finally(() => {
-      //   setLoading(false);
-      // });
   }, []);
 
   useEffect(() => {
